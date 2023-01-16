@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Понеділок</title>
+  <link href="./Home.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+
+
+  <h1 class = "main-title"> Понеділок </h1>
+
+  <div class="day-main">
+    <div class="timetable-day">
+
+      </div>
+    <div class = "off">
+      </div>
+    <div class="homework-day">
+      <form name="search">
+    <input type="text" name="key" id = "homework" placeholder="Введіть Дз"></input>
+    <input type="button" name="print" id = "addButton" value="Записати" />
+</form>
+<div id="printBlock"></div>
+<script>
+function printForm(){
+
+
+    var keyBox = document.search.key;
+    var val = keyBox.value;
+
+    var printBlock = document.getElementById("printBlock");
+    // создаем новый параграф
+    var pElement = document.createElement("li");
+
+    pElement.textContent = val;
+
+    catlist.appendChild(pElement);
+
+    val = ""
+}
+
+var printButton = document.search.print;
+printButton.addEventListener("click", printForm);
+</script>
+
+<ul class="homework-ul">
+
+</ul>
+      </div>
+  </div>
+</body>
+
+</html>

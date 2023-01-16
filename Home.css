@@ -1,0 +1,156 @@
+html{
+  background-image: url(./фон2.webp);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 100%;
+    font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.main-title{
+  font-family: Segoe UI;
+  text-align: center;
+  font-size: 45px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 5px;
+
+}
+.main>.day {
+   margin: 15px;
+   border: 1px solid black;
+   width: 200px;
+  height: 320px;
+  border-radius: 10px;
+  background:radial-gradient(at 50% 50%, white, grey);;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  overflow: auto;
+
+}
+button, #addButton, #addTime, #addSize{
+
+  width: 140px;
+  height: 50px;
+  background-color: blue;
+  border: 1px solid white;
+border-radius: 15px;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 5px;
+}
+.day-main #addButton:hover, .day-main #addButton:active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+.day button:hover, .day-main button:active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+.homework-monday #addButton:hover, .homework-monday #addButton:active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+
+
+.day-main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.day-main>div{
+   margin: 15px;
+   border: 1px solid black;
+   width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background:radial-gradient(at 50% 50%, white, grey);;
+  text-align: left;
+  font-family: Segoe UI;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  padding-top: 10px;
+  overflow: auto;
+}
+
+.timetable{
+  text-align: left;
+}
+
+#homework, #time-test1, #time-test2, #size-h, #size-w{
+  border-radius: 20px;
+  margin: 10px;
+  border: 2px blue solid;
+  height: 30px;
+  padding-left: 10px;
+}
+.homework-day{
+  text-align: left;
+}
+
+li{
+  margin: 15px;
+}
+#book{
+
+  margin: 30px  ;;
+border-radius: 10px;
+align-content: center;
+
+}
+.title-no{
+  font-family: Segoe UI;
+  text-align: center;
+  font-size: 35px;
+}
+.time-bar{
+  display: flex;
+justify-content:  center;
+  flex-wrap: wrap;
+}
+#note{
+  height: 260px;
+  width: 250px;
+}
+#addTime, #addSize:hover,  #addTime, #addSize :active {
+	color: blue;
+	border: 1px solid blue;
+	background-color: yellow;
+}
+.math1{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  background: radial-gradient(at 50% 50%, white, grey);
+  margin: 5px;
+
+
+}
